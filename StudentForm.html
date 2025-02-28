@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentForm</title>
+</head>
+<body>
+    <form action="">
+    <h1><center>Student Registration Form</center></h1>
+    <fieldset>
+        <legend>Student Information : </legend>
+    <label for="">Name </label><br>
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Second Name"><br><br>
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email" placeholder="E-mail" required><br><br>
+    <label for="">Phone Number </label><br>
+    <select name="CuntyCode" id="code">
+        <option value="" selected disabled>Country Code </option>
+        <option value="">America(+1)</option>
+        <option value="">UAE(+971)</option>
+        <option value="">India(+91)</option>
+        <option value="">Russia(+7)</option>
+        <option value="">Japan(+81)</option>
+    </select>
+    <input type="number" placeholder="Ph-number" maxlength="10" required><br><br>
+    <label for="number">Secondary Contact Number </label>
+    <input type="number" placeholder="Ph-number" maxlength="10"><br><br>
+    <label for="date">Date Of Birth</label><br>
+    <input type="date" id="date" required ><br><br>
+    <label for="age">Age</label><br>
+    <input type="number" id="age" placeholder="age"><br><br>
+    <label for="">Select Gender </label><br>
+    <input type="radio" id="male" name="gender"><label for="male">Male</label>
+    <input type="radio" id="female" name="gender"><label for="female">Female</label>
+    <input type="radio" id="NT" name="gender"><label for="NT">Not To Say</label>
+</fieldset>
+<fieldset>
+    <legend>Address : </legend>
+    <label for="street">Street/area</label>
+    <input type="text" id="street" placeholder="street/area"><br><br>
+    <label for="city">City</label>
+    <input type="text" id="city" placeholder="city"><br><br>
+    <label for="state">State</label>
+    <input type="text" id="state" placeholder="state"><br><br>
+    <label for="pin">Pin Code</label>
+    <input type="number" id="pin" placeholder="pincode " max="6">
+</fieldset>
+<fieldset>
+    <legend>Other Details </legend>
+    <label for="">Select Course </label>
+<select name="" id="">
+    <option value="" selected disabled>Select Course</option>
+    <option value="">Java</option>
+    <option value="">Python</option>
+    <option value="">Javascript</option>
+    <option value="">C</option>
+    <option value="">C++</option>
+</select>
+<input type="text" placeholder="3 MOTHS COURSE" readonly><br><br>
+<label for="">Select Your Skills : </label>
+<input type="checkbox" id=""><label for="">java basics</label>
+<input type="checkbox" id=""><label for="">python basics</label>
+<input type="checkbox" id=""><label for="">c language basics</label>
+<input type="checkbox" id=""><label for="">C++ basics</label>
+<input type="checkbox" id=""><label for="">Excel</label>
+<input type="checkbox" id=""><label for="">PowerPoint</label>
+<input type="checkbox" id=""><label for="">Word</label> <br><br>
+<label for="resume">Upload Your Resume : </label>
+<input type="file" id="resume" >
+</fieldset>
+<p>Make sure You enterd currect details....</p>
+<center>
+<input type="submit">
+<input type="reset">
+</center>
+</form>
+</body>
+</html>
